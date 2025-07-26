@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\BNP.NYBOSS.WorkflowManager.Application\BNP.NYBOSS.WorkflowManager.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Data\BNP.NYBOSS.Infrastructure.Data\BNP.NYBOSS.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Email\BNP.NYBOSS.Infrastructure.Email\BNP.NYBOSS.Infrastructure.Email.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\FileStorage\BNP.NYBOSS.Infrastructure.FileStorage\BNP.NYBOSS.Infrastructure.FileStorage.csproj" />
+  </ItemGroup>
+
+</Project>
